@@ -1,0 +1,30 @@
+# Build outputs and IDE state
+**/bin/
+**/obj/
+**/.vs/
+**/TestResults/
+**/DemoOutput/
+**/.vscode/
+**/.idea/
+
+# Secrets, credentials, local databases
+.env
+.env.*
+!.env.example
+**/appsettings.Production.json
+**/secrets.json
+**/*.pfx
+**/*.p12
+**/*.key
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/*-wal
+**/*-shm
+
+# OS and generated reports
+Thumbs.db
+.DS_Store
+**/*.user
+**/*.suo
+**/coverage/
